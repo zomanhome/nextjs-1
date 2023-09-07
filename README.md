@@ -1,3 +1,9 @@
+Algorithm for solution (none experience with next.js && tailwind)
+1. Fork https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template
+2. Clean template
+3. Create navbar: https://medium.com/@ryaddev/building-a-responsive-navigation-bar-with-next-js-and-tailwind-css-dc6fb2bc8362
+4. 
+
 # Landing Page Template built with Next JS 13+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
