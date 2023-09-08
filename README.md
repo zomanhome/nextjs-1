@@ -1,8 +1,13 @@
-Algorithm for solution (none experience with next.js && tailwind)
+Algorithm for solution (no experience with next.js && tailwind before)
+
 1. Fork https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template
 2. Clean template
 3. Create navbar: https://medium.com/@ryaddev/building-a-responsive-navigation-bar-with-next-js-and-tailwind-css-dc6fb2bc8362
-4. 
+4. Fonts: https://medium.com/frontendweb/how-to-add-font-in-next-js-7a7fba80d528
+5. Create Hero
+6. Create Gallery
+7. Smooth scroll: https://stackoverflow.com/questions/69825670/smooth-scroll-in-next-js
+8. Gallery: https://medium.com/@ryaddev/image-gallery-and-carousel-in-next-js-and-tailwindcss-9a7327728c5c
 
 # Landing Page Template built with Next JS 13+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 

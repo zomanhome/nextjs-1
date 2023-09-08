@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
-import { AppConfig } from '../utils/AppConfig';
+import { AppConfig } from '@/utils/AppConfig';
 
 type IMetaProps = {
   title: string;
@@ -45,6 +45,13 @@ const Meta = (props: IMetaProps) => {
           rel="icon"
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
+        />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Karantina&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <NextSeo

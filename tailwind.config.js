@@ -16,6 +16,7 @@ module.exports = {
       "4xl": "2.25rem",
       "5xl": "3rem",
       "6xl": "4rem",
+      "7xl": "5rem",
     },
     extend: {
       colors: {
@@ -44,6 +45,10 @@ module.exports = {
       },
       lineHeight: {
         hero: "4.5rem",
+      },
+      letterSpacing: {
+        superwide: "1.2rem",
+        mobile: "0.4rem",
       },
     },
   },

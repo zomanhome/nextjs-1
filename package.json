@@ -22,7 +22,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "yet-another-react-lightbox": "^3.12.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.12",

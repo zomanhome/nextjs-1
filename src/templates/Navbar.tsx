@@ -8,11 +8,11 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const router = useRouter();
   const menu = [
-    { name: 'About', url: '#about' },
-    { name: 'Services', url: '#services' },
-    { name: 'Career', url: '#career' },
+    // { name: 'About', url: '#about' },
+    // { name: 'Services', url: '#services' },
+    // { name: 'Career', url: '#career' },
     { name: 'Gallery', url: '#gallery' },
-    { name: 'Contacts', url: '#contacts' },
+    // { name: 'Contacts', url: '#contacts' },
   ];
 
   return (
@@ -26,13 +26,15 @@ const Navbar = () => {
           {navbar ? (
             <div className="h-10"></div>
           ) : (
-            <Link href="#">
+            <Link href="/">
               <div className="flex h-10 flex-col text-white">
                 <img
                   src={`${router.basePath}/assets/images/logo.svg`}
                   alt="LOGO"
                 />
-                <span className="font-logo text-xs">CarpTravel</span>
+                <span className="font-logo text-sm md:text-base">
+                  CarpTravel
+                </span>
               </div>
             </Link>
           )}
@@ -51,9 +53,15 @@ const Navbar = () => {
             {menu.map(({ name, url }, index) => (
               <li
                 key={index}
-                className="text-center font-menu text-2xl text-white md:text-xl"
+                className="text-center font-menu text-3xl text-white md:text-xl"
               >
-                <Link href={url}>{name}</Link>
+                <Link
+                  href={url}
+                  scroll={false}
+                  onClick={() => setNavbar(false)}
+                >
+                  {name}
+                </Link>
               </li>
             ))}
           </ul>
