@@ -33,10 +33,10 @@ const Gallery = () => {
   return (
     <div
       id="gallery"
-      className="flex h-screen w-full flex-col items-center justify-center bg-[url('/assets/images/bg-gallery.jpeg')] md:p-12 lg:mr-12"
+      className="flex h-screen w-full flex-col items-center justify-center bg-[url('/assets/images/bg-gallery.jpeg')] p-6 md:p-12 lg:mr-12"
     >
       <div className="text-menu self-start pb-8 text-5xl leading-none tracking-tight text-white md:text-7xl">
-        <div className="p-6 font-thin">
+        <div className="py-6 font-thin">
           {/* eslint-disable-next-line no-irregular-whitespace */}
           OUR <span className="font-semibold">GALLERY</span>
         </div>

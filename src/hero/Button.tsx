@@ -1,4 +1,6 @@
 import className from 'classnames';
+import Link from 'next/link';
+import React from 'react';
 
 type IButtonProps = {
   xl?: boolean;
@@ -11,11 +13,28 @@ const Button = (props: IButtonProps) => {
     'btn-xl': props.xl,
     'btn-base': !props.xl,
     'btn-primary': true,
+    relative: true,
+    'h-12': true,
+    'mt-6': true,
+    'cursor-pointer': true,
+    'tracking-widest': true,
   });
 
   return (
     <div className={btnClass}>
-      {props.children}
+      <Link href="#contacts">
+        <img
+          className="absolute left-0 top-0 h-12"
+          src={`/assets/images/1.svg`}
+          alt=""
+        />
+        {props.children}
+        <img
+          className="absolute right-0 top-0 h-12"
+          src={`/assets/images/2.svg`}
+          alt=""
+        />
+      </Link>
 
       <style jsx>
         {`
@@ -24,7 +43,7 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-base {
-            @apply text-lg font-semibold py-2 px-4;
+            @apply mt-36 md:mt-6 text-lg font-semibold py-2 px-4 bg-transparent/20 w-full;
           }
 
           .btn-xl {
@@ -32,11 +51,11 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white;
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-transparent/40;
           }
         `}
       </style>

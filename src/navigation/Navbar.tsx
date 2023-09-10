@@ -12,7 +12,7 @@ const Navbar = () => {
     // { name: 'Services', url: '#services' },
     // { name: 'Career', url: '#career' },
     { name: 'Gallery', url: '#gallery' },
-    // { name: 'Contacts', url: '#contacts' },
+    { name: 'Contacts', url: '#contacts' },
   ];
 
   return (

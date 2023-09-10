@@ -1,4 +1,5 @@
 import { Meta } from '@/layout/Meta';
+import Contacts from '@/templates/Contacts';
 import Gallery from '@/templates/Gallery';
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -9,10 +10,7 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <Gallery />
-    {/* <Hero /> */}
-    {/* <VerticalFeatures /> */}
-    {/* <Banner /> */}
-    {/* <Footer /> */}
+    <Contacts />
   </div>
 );
 
